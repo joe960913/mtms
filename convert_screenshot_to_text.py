@@ -13,12 +13,11 @@ pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract'
 # 找到最新的截图文件
 screenshot_dir = '/Users/zizhoutong/Desktop/testScreenShot'
 # 目标目录（当前目录下的screenshot文件夹）
-destination_dir = './screenshot'
+destination_dir = '/Users/zizhoutong/Downloads/img2textgpt/screenshot'
 latest_screenshot_file = max([os.path.join(screenshot_dir, f) for f in os.listdir(
     screenshot_dir) if f.endswith('.png')], key=os.path.getctime)
 
 shutil.copy(latest_screenshot_file, destination_dir)
-
 
 print(latest_screenshot_file)
 
