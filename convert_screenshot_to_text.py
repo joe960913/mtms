@@ -7,7 +7,7 @@ from datetime import datetime
 pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract'
 
 # OpenAI API密钥配置
-openai.api_key = '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'
+
 
 # 找到最新的截图文件
 screenshot_dir = '/Users/zizhoutong/Desktop/testScreenShot'
