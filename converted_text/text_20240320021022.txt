@@ -1,0 +1,5 @@
+penai.api_key = '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 '
+
+creenshot_dir = '/Users/zizhoutong/Desktop/testScreenShot '
+atest_screenshot_file = max([os.path.join(screenshot_dir, f) for f in os.listdir(
+screenshot_dir) if f.endswith('.png')], key=os.path.getctime)

@@ -1,0 +1,7 @@
+此 代码 首先 找到 指定 文件 夹 (这 里 是 你 的 桌面 上 的 `testScreenShot VFX) 中 最 新 的 图 片 文件 ， 然 后
+使 用 Tesseract 对 其 进行 OCR 处 理 ， 支 持 中 英文 混合 的 文本 识别 。
+
+如 何 执行
+
+1. 确保 你 的 Python 环境 已 安装 `PIL`” (或 ;Pillow`) 和 `pytesseract`。 如 果 没 有 安装 ， 可 以 使 用 `pip、
+

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Convert Screenshot to Text",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "${workspaceFolder}/convert_screenshot_to_text.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}

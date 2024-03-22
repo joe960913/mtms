@@ -1,0 +1,2 @@
+A You
+我 需要 集成 这 两 个 功能 ， 先 convert 截 图 到 text， 然 后 再 传 给 chatgpt， 先 后 执行 。
